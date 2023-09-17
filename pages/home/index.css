@@ -1,14 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;900&display=swap");
-h2 {
-  color: #FE4A49;
-  font-size: 1.5rem;
-}
-
 header,
 footer,
 section {
-  padding: 0 4rem 0 4rem;
+  padding: 0 40px 0 40px;
 }
 
 header {
@@ -18,7 +13,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
+  padding-top: 5px;
 }
 header nav #perfil {
   display: flex;
@@ -27,7 +22,7 @@ header nav #perfil {
 header a {
   text-decoration: none;
   color: #FE4A49;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 footer {
@@ -49,7 +44,7 @@ footer {
   font-size: 3rem;
 }
 .contato div .titulo {
-  font-size: 3.1rem;
+  font-size: 2rem;
   color: #FE4A49;
 }
 .contato div p {
@@ -73,7 +68,7 @@ footer {
   border: none;
   border-radius: 5px;
   padding: 3px;
-  font-size: 1.6rem;
+  font-size: 2rem;
   background-color: #FE4A49;
   width: 40%;
   align-self: flex-end;
@@ -83,15 +78,15 @@ footer {
 .informacoes {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 25px;
   background-color: #FE4A49;
-  padding-top: 3.1rem;
-  padding-bottom: 3.1rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .informacoes h2 {
   color: #FFF;
   text-align: center;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .informacoes .containers-informacao {
   display: flex;
@@ -103,8 +98,8 @@ footer {
   letter-spacing: 1.5px;
 }
 .informacoes .containers-informacao .item-informacao p {
-  max-width: 30rem;
-  font-size: 1.8rem;
+  max-width: 250px;
+  font-size: 2rem;
   word-wrap: break-word;
 }
 .informacoes .containers-informacao .item-informacao {
@@ -116,13 +111,13 @@ footer {
 .informacoes .containers-informacao .item-img {
   display: flex;
   justify-content: center;
-  width: 9.5rem;
-  height: 8.5rem;
+  width: 95px;
+  height: 85px;
   background-color: #FFF;
   border-radius: 8px;
 }
 .informacoes .containers-informacao .item-img img {
-  width: 4.5rem;
+  width: 45px;
 }
 
 @media (max-width: 768px) {

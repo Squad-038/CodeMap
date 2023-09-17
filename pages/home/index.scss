@@ -1,14 +1,9 @@
 @import '../../styles/scss/variables';
 
-h2 {
-  color: $main-color;
-  font-size: $fs-15;
-}
-
 header,
 footer,
 section {
-  padding: 0 $fs-40 0 $fs-40;
+  padding: 0 40px 0 40px;
 }
 
 header {
@@ -18,7 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: $fs-5;
+    padding-top: 5px;
 
     #perfil {
       display: flex;
@@ -29,7 +24,7 @@ header {
   a {
     text-decoration: none;
     color: $main-color;
-    font-size: $fs-25;
+    font-size: $fs-20;
 
   }
 }
@@ -54,7 +49,7 @@ footer {
     font-size: $fs-30;
 
     .titulo {
-      font-size: $fs-31;
+      font-size: $fs-20;
       color: $main-color;
     }
 
@@ -85,7 +80,7 @@ footer {
       border: none;
       border-radius: 5px;
       padding: 3px;
-      font-size: $fs-16;
+      font-size: $fs-20;
       background-color: $main-color;
       width: 40%;
       align-self: flex-end;
@@ -97,15 +92,15 @@ footer {
 .informacoes {
   display: flex;
   flex-direction: column;
-  gap: $fs-25;
+  gap: 25px;
   background-color: $main-color;
-  padding-top: $fs-31;
-  padding-bottom: $fs-31;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
   h2 {
     color: $white;
     text-align: center;
-    font-size: $fs-40;
+    font-size: $fs-50;
   }
 
   .containers-informacao {
@@ -119,8 +114,9 @@ footer {
     }
 
     .item-informacao p {
-      max-width: $fs-300;
-      font-size: $fs-18;
+      max-width: 250px;
+      font-size: $fs-20;
+
       word-wrap: break-word;
     }
 
@@ -134,14 +130,14 @@ footer {
     .item-img {
       display: flex;
       justify-content: center;
-      width: $fs-95;
-      height: $fs-85;
+      width: 95px;
+      height: 85px;
       background-color: $white;
       border-radius: 8px;
     }
 
     .item-img img {
-      width: $fs-45;
+      width: 45px;
     }
   }
 }
