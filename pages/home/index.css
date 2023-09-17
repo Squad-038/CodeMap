@@ -4,6 +4,10 @@ h2 {
   font-size: 1.5rem;
 }
 
+header, .login, .sobre, .informacoes, .contato, footer {
+  padding: 20px;
+}
+
 header {
   background-color: #232323;
 }
@@ -108,4 +112,19 @@ footer {
 }
 .informacoes .containers-informacao .item-img img {
   width: 2.4rem;
+}
+
+@media (max-width: 768px) {
+  .contato {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contato #descricao {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+  .contato #materiais-gratuitos {
+    width: 100%;
+  }
 }/*# sourceMappingURL=index.css.map */
