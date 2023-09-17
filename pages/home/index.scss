@@ -18,7 +18,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding-top: $fs-5;
     #perfil {
       display: flex;
       align-items: center;
@@ -45,7 +45,6 @@ footer {
   display: grid;
   grid-template-columns: 60% 40%;
   align-items: center;
-  padding-inline: 10%;
 
   #descricao {
     width: 50%;
