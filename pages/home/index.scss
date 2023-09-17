@@ -4,6 +4,122 @@ body {
   background-color: $secondary-color;
 }
 
+/* SEÇÃO LOGIN */
+
+
+section.login {
+  width: 100%;
+  padding-inline: 0;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  #form-login {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background-color: $main-color;
+    width: 682px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    text-transform: uppercase;
+    border-radius: 10px 10px 30px 0px;
+    -webkit-box-shadow: 0px 9px 20px 0px rgba(13, 20, 28, 1);
+    -moz-box-shadow: 0px 9px 20px 0px rgba(13, 20, 28, 1);
+    box-shadow: 0px 9px 20px 0px rgba(13, 20, 28, 1);
+
+    h3 {
+      font-size: $fs-30;
+      font-family: $ff-inter;
+    }
+
+    .inputs {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 500px;
+
+
+      label {
+        font-family: $ff-inter;
+        font-size: $fs-20;
+        font-weight: $fw-800;
+      }
+
+      input {
+        height: 56px;
+        width: 400px;
+        border: none;
+        border-radius: $br-15;
+        -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+        -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+      }
+
+      .password-input {
+        display: flex;
+        flex-direction: column;
+
+        a {
+          margin-top: 7px;
+          font-size: $fs-15;
+          font-weight: $fw-600;
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+      }
+
+    }
+
+  }
+
+  .btn {
+    position: relative;
+    border: 2px $white solid;
+    border-radius: $br-10;
+    font-size: $fs-20;
+    font-weight: $fw-800;
+    text-decoration: none;
+    padding: 15px 30px;
+    align-self: flex-end;
+    margin-right: 15%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+    transition: $transition-2s;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: $white;
+      height: 10px;
+      width: 100%;
+      transition: $transition-2s;
+    }
+
+    &:hover {
+      background-color: $white;
+      color: $main-color;
+      border: 2px $main-color solid;
+
+      &::after {
+        background-color: $main-color;
+      }
+    }
+
+  }
+}
+
 .contato {
   background-color: $secondary-color;
   display: grid;
@@ -146,5 +262,5 @@ body {
       width: 100%;
     }
   }
-  
+
 }

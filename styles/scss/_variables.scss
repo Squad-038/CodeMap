@@ -1,20 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800;900&display=swap');
+
+/* CORES */
 
 $main-color: #FE4A49;
 $secondary-color: #232323;
 $white: #FFF;
 
+/* TIPOS DE FONTS */
+
 $ff-inter: 'Inter', sans-serif;
 $ff-questrial: 'Questrial', sans-serif;
 
-$fs-60: 6.0rem;
-$fs-50: 5.0rem;
-$fs-30: 3.0rem;
+/* TAMANHOS DE FONTS */
+
+$fs-15: 1.5rem;
 $fs-20: 2rem;
+$fs-30: 3rem;
+$fs-50: 5rem;
+$fs-60: 6rem;
+
+/* PESOS DE FONTS */
 
 $fw-400: 400;
-$fw-600: 500;
+$fw-500: 500;
 $fw-600: 600;
 $fw-700: 700;
 $fw-800: 800;
+
+/* BORDER RADIUS */
+$br-10: 10px;
+$br-15: 15px;
+
+/* TRANSTIONS */
+
+$transition-2s: .2s ease;
