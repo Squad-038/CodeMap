@@ -4,8 +4,11 @@ h2 {
   color: $main-color;
   font-size: $fs-15;
 }
-header, .login, .sobre,.informacoes,.contato, footer{
-  padding: 20px
+
+header,
+footer,
+section {
+  padding: 0 $fs-37 0 $fs-37;
 }
 
 header {
@@ -97,16 +100,17 @@ footer {
 
   .containers-informacao {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 
     .item-informacao h4 {
-      font-size: $fs-15;
-      font-family: $ff-bebas;
+      font-size: $fs-30;
       letter-spacing: 1.5px;
     }
 
     .item-informacao p {
-      max-width: 11rem;
+      max-width: $fs-300;
+      font-size: $fs-18;
       word-wrap: break-word;
     }
 
@@ -120,29 +124,31 @@ footer {
     .item-img {
       display: flex;
       justify-content: center;
-      width: $fs-45;
-      height: $fs-40;
+      width: $fs-95;
+      height: $fs-85;
       background-color: $white;
       border-radius: 8px;
     }
 
     .item-img img {
-      width: $fs-24;
+      width: $fs-45;
     }
   }
 }
 
-@media (max-width: 768px){
-  .contato{
+@media (max-width: 768px) {
+  .contato {
     display: flex;
     flex-wrap: wrap;
-    #descricao{
+
+    #descricao {
       width: 100%;
       text-align: justify;
       margin-bottom: 15px;
     }
-    #materiais-gratuitos{
+
+    #materiais-gratuitos {
       width: 100%;
     }
   }
-} 
+}

@@ -34,7 +34,7 @@ const repetirContainersInformacao = () =>
 
 export const Sessao_Informacoes = () => {
   return `<h2>POR QUE ESCOLHER O CODEMAP</h2>
-    <section class="containers-informacao">
+    <div class="containers-informacao">
     ${repetirContainersInformacao()}
-    </section>`;
+    </div>`;
 };

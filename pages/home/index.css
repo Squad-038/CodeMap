@@ -4,8 +4,10 @@ h2 {
   font-size: 1.5rem;
 }
 
-header, .login, .sobre, .informacoes, .contato, footer {
-  padding: 20px;
+header,
+footer,
+section {
+  padding: 0 3.7rem 0 3.7rem;
 }
 
 header {
@@ -83,15 +85,16 @@ footer {
 }
 .informacoes .containers-informacao {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 .informacoes .containers-informacao .item-informacao h4 {
-  font-size: 1.5rem;
-  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
   letter-spacing: 1.5px;
 }
 .informacoes .containers-informacao .item-informacao p {
-  max-width: 11rem;
+  max-width: 30rem;
+  font-size: 1.8rem;
   word-wrap: break-word;
 }
 .informacoes .containers-informacao .item-informacao {
@@ -103,13 +106,13 @@ footer {
 .informacoes .containers-informacao .item-img {
   display: flex;
   justify-content: center;
-  width: 4.5rem;
-  height: 4rem;
+  width: 9.5rem;
+  height: 8.5rem;
   background-color: #FFF;
   border-radius: 8px;
 }
 .informacoes .containers-informacao .item-img img {
-  width: 2.4rem;
+  width: 4.5rem;
 }
 
 @media (max-width: 768px) {
