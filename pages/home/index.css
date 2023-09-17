@@ -74,4 +74,38 @@ footer {
   width: 40%;
   align-self: flex-end;
   color: #681e1e;
+}
+
+.informacoes {
+  background-color: #FE4A49;
+}
+.informacoes .containers-informacao {
+  display: flex;
+  justify-content: space-between;
+}
+.informacoes .containers-informacao .item-informacao h4 {
+  font-size: 1.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1.5px;
+}
+.informacoes .containers-informacao .item-informacao p {
+  max-width: 11rem;
+  word-wrap: break-word;
+}
+.informacoes .containers-informacao .item-informacao {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: #FFF;
+}
+.informacoes .containers-informacao .item-img {
+  display: flex;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4rem;
+  background-color: #FFF;
+  border-radius: 8px;
+}
+.informacoes .containers-informacao .item-img img {
+  width: 2.4rem;
 }/*# sourceMappingURL=index.css.map */
