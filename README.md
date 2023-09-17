@@ -13,11 +13,12 @@ O projeto CODEMAP foi desenvolvido utilizando as seguintes tecnologias:
 - HTML
 - CSS (Sass)
 - JavaScript
-- 
+
 ## Contato
 
 Se você tiver alguma pergunta, sugestão ou precisar de ajuda, sinta-se à vontade para entrar em contato conosco.
 Desenvolvedores:
-Aira 
-Maria Eduarda
-David 
+- Aira 
+- Maria Eduarda
+- David
+  
