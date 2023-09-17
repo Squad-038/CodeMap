@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;900&display=swap');
 
 $main-color: #FE4A49;
 $secondary-color: #232323;
 $white: #FFF;
 
-$ff-bayon: 'Bayon', sans-serif;
-$ff-bebas: 'Bebas Neue', sans-serif;
+$ff-inter: 'Inter', sans-serif;
+$ff-questrial: 'Questrial', sans-serif;
 
 $fs-5: .5rem;
 $fs-15: 1.5rem;
@@ -23,10 +24,6 @@ $fs-45: 4.5rem;
 $fs-50: 5rem;
 $fs-60: 6rem;
 $fs-70: 7rem;
-$fs-75: 7.5rem;
-$fs-85: 8.5rem;
-$fs-95: 9.5rem;
-$fs-300: 30rem;
 
 $fw-400: 400;
 $fw-600: 500;
