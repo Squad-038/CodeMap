@@ -1,5 +1,9 @@
 @import '../../styles/scss/variables';
 
+body {
+  background-color: $secondary-color;
+}
+
 header,
 footer,
 section {
@@ -89,6 +93,25 @@ footer {
   }
 }
 
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+
+  h1 {
+    font-family: $ff-inter;
+    font-weight: $fw-800;
+    color: $main-color;
+    font-size: $fs-50;
+  }
+
+  h2 {
+    font-size: $fs-30;
+    font-weight: $fw-600;
+  }
+}
+
 .informacoes {
   display: flex;
   flex-direction: column;
@@ -98,6 +121,7 @@ footer {
   padding-bottom: 30px;
 
   h2 {
+    font-family: $ff-inter;
     color: $white;
     text-align: center;
     font-size: $fs-50;
