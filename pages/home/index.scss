@@ -8,7 +8,7 @@ h2 {
 header,
 footer,
 section {
-  padding: 0 $fs-37 0 $fs-37;
+  padding: 0 $fs-40 0 $fs-40;
 }
 
 header {
@@ -19,6 +19,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-top: $fs-5;
+
     #perfil {
       display: flex;
       align-items: center;
@@ -35,8 +36,7 @@ header {
 
 footer {
   background-color: $secondary-color;
-  color: white;
-  font-size: $fs-18;
+  font-size: $fs-20;
   text-align: center;
 }
 
@@ -95,7 +95,18 @@ footer {
 }
 
 .informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: $fs-25;
   background-color: $main-color;
+  padding-top: $fs-31;
+  padding-bottom: $fs-31;
+
+  h2 {
+    color: $white;
+    text-align: center;
+    font-size: $fs-40;
+  }
 
   .containers-informacao {
     display: flex;

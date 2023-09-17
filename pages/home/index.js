@@ -1,4 +1,8 @@
-import { Navbar, Footer, Sessao_Informacoes } from "../../components/index.js";
+import {
+  Navbar,
+  Footer,
+  Elementos_SessaoInformacao,
+} from "../../components/index.js";
 
 const header = document.querySelector("header");
 header.innerHTML = Navbar();
@@ -6,5 +10,5 @@ header.innerHTML = Navbar();
 const footer = document.querySelector("footer");
 footer.innerHTML = Footer();
 
-const sessao_informacoes = document.querySelector("section.informacoes");
-sessao_informacoes.innerHTML = Sessao_Informacoes();
+const sessao_informacoes = document.querySelector(".containers-informacao");
+sessao_informacoes.innerHTML = Elementos_SessaoInformacao();

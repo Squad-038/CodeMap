@@ -1,40 +1,19 @@
-const itens_container = [
-  {
-    img: "../../assets/imgs/icone-informacao-1.svg",
-    descricao_img: "",
-    titulo: "100% ONLINE",
-    texto:
-      "Acesse cursos em casa para uma jornada de aprendizado conveniente e flexível.",
-  },
-  {
-    img: "../../assets/imgs/icone-informacao-2.svg",
-    descricao_img: "",
-    titulo: "+CODIGO",
-    texto: "Domine programação com cursos online flexíveis e atualizados.",
-  },
-  {
-    img: "../../assets/imgs/icone-informacao-3.svg",
-    descricao_img: "",
-    titulo: "+ROADMAP",
-    texto: "Alcance seus objetivos educacionais com orientação personalizada.",
-  },
-];
+import { itens_container } from "../constants/data.js";
 
-const repetirContainersInformacao = () =>
-  itens_container.map((item) => {
-    return `
+const ItemInformacao = (item) => {
+  return `
     <div class="item-informacao">
-    <div class="item-img">
+      <div class="item-img">
         <img src="${item.img}" alt="${item.descricao_img}">
+      </div>
+      <h4>${item.titulo}</h4>
+      <p>${item.texto}.</p>
     </div>
-    <h4>${item.titulo}</h4>
-    <p>${item.texto}.</p>
-</div>`;
-  });
+  `;
+};
 
-export const Sessao_Informacoes = () => {
-  return `<h2>POR QUE ESCOLHER O CODEMAP</h2>
-    <div class="containers-informacao">
-    ${repetirContainersInformacao()}
-    </div>`;
+export const Elementos_SessaoInformacao = () => {
+  return itens_container.map((item) => {
+    return `${ItemInformacao(item)}`;
+  });
 };

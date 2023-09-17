@@ -7,7 +7,7 @@ h2 {
 header,
 footer,
 section {
-  padding: 0 3.7rem 0 3.7rem;
+  padding: 0 4rem 0 4rem;
 }
 
 header {
@@ -31,8 +31,7 @@ header a {
 
 footer {
   background-color: #232323;
-  color: white;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -81,7 +80,17 @@ footer {
 }
 
 .informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
   background-color: #FE4A49;
+  padding-top: 3.1rem;
+  padding-bottom: 3.1rem;
+}
+.informacoes h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 4rem;
 }
 .informacoes .containers-informacao {
   display: flex;
