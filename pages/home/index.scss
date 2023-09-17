@@ -15,7 +15,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
 
     #perfil {
       display: flex;
@@ -42,7 +41,6 @@ footer {
   background-color: $secondary-color;
   display: grid;
   grid-template-columns: 60% 40%;
-  padding: 30px;
   align-items: center;
   padding-inline: 10%;
 
