@@ -4,62 +4,6 @@ body {
   background-color: $secondary-color;
 }
 
-header,
-footer,
-section {
-  padding: 0 40px 0 40px;
-}
-
-header {
-  position: relative;
-  z-index: 2;
-  background-color: #232323;
-
-  nav {
-    padding: 5px;
-    padding-top: 5px;
-    a {
-      text-decoration: none;
-      color: $main-color;
-      font-size: $fs-20;
-    }
-    a:hover{
-        text-decoration: underline #FE4A49;
-      }
-
-    .navBar{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      #perfil {
-        display: flex;
-        align-items: center;
-      }
-    }
-
-    .navList{
-      display: none;
-       
-      ul{
-        display: flex;
-        list-style-type: none;
-        justify-content: center;
-      }
-
-      li{
-        padding: 20px;
-      }
-    }
-  }
-}
-
-footer {
-  background-color: $secondary-color;
-  font-size: $fs-20;
-  text-align: center;
-}
-
 .contato {
   background-color: $secondary-color;
   display: grid;
@@ -202,17 +146,5 @@ footer {
       width: 100%;
     }
   }
-  .navList{
-    ul{
-      flex-direction: column;
-      padding: 0 30px 0 30px;
-    }
-
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    background-color: #232323;
-    width: 30%;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  }
+  
 }
