@@ -1,0 +1,147 @@
+@import '../../styles/scss/variables';
+
+h2 {
+  color: $main-color;
+  font-size: $fs-15;
+}
+header, .login, .sobre,.informacoes,.contato, footer{
+  padding: 20px
+}
+header {
+  background-color: $secondary-color;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #perfil {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $main-color;
+    font-size: $fs-25;
+
+  }
+}
+
+footer {
+  background-color: $secondary-color;
+  color: white;
+  font-size: $fs-18;
+  text-align: center;
+}
+
+.contato {
+  background-color: $secondary-color;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  padding-inline: 10%;
+
+  #descricao {
+    width: 50%;
+  }
+
+  div {
+    font-size: $fs-30;
+
+    .titulo {
+      font-size: $fs-31;
+      color: $main-color;
+    }
+
+    p {
+      color: white;
+    }
+
+    #materiais-gratuitos {
+      width: 70%;
+    }
+
+    #email-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #email {
+      -webkit-box-shadow: 14px 14px 5px -8px rgba(254, 74, 73, 1);
+      -moz-box-shadow: 14px 14px 5px -8px rgba(254, 74, 73, 1);
+      box-shadow: 5px 5px 2px rgba(254, 74, 73, 1);
+      border-radius: 5px;
+      border: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    #button {
+      border: none;
+      border-radius: 5px;
+      padding: 3px;
+      font-size: $fs-16;
+      background-color: $main-color;
+      width: 40%;
+      align-self: flex-end;
+      color: #681e1e;
+    }
+  }
+}
+
+.informacoes {
+  background-color: $main-color;
+
+  .containers-informacao {
+    display: flex;
+    justify-content: space-between;
+
+    .item-informacao h4 {
+      font-size: $fs-15;
+      font-family: $ff-bebas;
+      letter-spacing: 1.5px;
+    }
+
+    .item-informacao p {
+      max-width: 11rem;
+      word-wrap: break-word;
+    }
+
+    .item-informacao {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      color: $white;
+    }
+
+    .item-img {
+      display: flex;
+      justify-content: center;
+      width: $fs-45;
+      height: $fs-40;
+      background-color: $white;
+      border-radius: 8px;
+    }
+
+    .item-img img {
+      width: $fs-24;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .contato{
+    display: flex;
+    flex-wrap: wrap;
+    #descricao{
+      width: 100%;
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+    #materiais-gratuitos{
+      width: 100%;
+    }
+  }
+} 
